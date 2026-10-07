@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Missão IFCE - Plano de Estudos da Laila</title>
+<style>
+:root{
+ --bg:#f4f7fb;--surface:#ffffff;--surface2:#eef3fb;--fg:#172033;--muted:#56637a;
+ --primary:#5b4bdb;--primary2:#7c5cff;--accent:#00a6a6;--line:#d8e0ec;--focus:#111827;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+ background:linear-gradient(180deg,#eef2ff 0,#f7f9fc 320px,#f4f7fb 100%);
+ color:var(--fg);max-width:980px;margin:auto;padding:18px;line-height:1.62;
+ letter-spacing:.01em
+}
+h1,h2,h3{line-height:1.22;letter-spacing:-.02em}
+h1{font-size:clamp(2rem,6vw,3.15rem);margin:.25em 0}
+h2{font-size:clamp(1.4rem,4vw,2rem)}
+p{max-width:75ch}
+.hero,.card,.lesson,.quiz,.score{
+ background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:22px;
+ padding:clamp(18px,4vw,28px);margin:18px 0;box-shadow:0 10px 28px rgba(38,50,85,.08)
+}
+.hero{
+ text-align:center;background:linear-gradient(135deg,#ffffff 0%,#f1efff 55%,#e9fbfb 100%);
+ border-top:6px solid var(--primary)
+}
+.hero p{margin-left:auto;margin-right:auto}
+.big{font-size:1.25rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:13px}
+.stat{
+ background:var(--surface2);border:1px solid #cdd8e8;border-radius:17px;padding:16px;text-align:center;
+ box-shadow:0 5px 14px rgba(38,50,85,.05)
+}
+.stat strong{font-size:1.4rem;display:block;margin-bottom:3px}
+button{
+ font:inherit;font-weight:750;min-height:50px;padding:12px 18px;border:0;border-radius:14px;
+ background:linear-gradient(135deg,var(--primary),var(--primary2));color:#fff;margin:7px 5px 7px 0;
+ cursor:pointer;box-shadow:0 7px 15px rgba(91,75,219,.20);transition:transform .12s ease,box-shadow .12s ease
+}
+button:hover{transform:translateY(-1px);box-shadow:0 10px 20px rgba(91,75,219,.25)}
+button:active{transform:translateY(1px)}
+button:focus,input:focus,summary:focus{outline:4px solid var(--focus);outline-offset:3px}
+.hidden{display:none}
+.topic{border-left:6px solid var(--primary)}
+.lesson{background:#fff}
+.quiz{background:linear-gradient(180deg,#f8fbff,#f2f5ff);border-color:#cbd5ea}
+.option{
+ display:block;background:#fff;border:2px solid #cfd8e6;border-radius:13px;padding:12px;margin:9px 0;
+ cursor:pointer;transition:border-color .12s,transform .12s
+}
+.option:hover{border-color:var(--primary);transform:translateX(2px)}
+.option input{width:21px;height:21px;vertical-align:middle;margin-right:8px;accent-color:var(--primary)}
+.feedback{font-weight:750;padding:12px;border-radius:12px;background:#fff;margin-top:10px}
+.progress{font-weight:800;font-size:1.15rem}
+.day{background:linear-gradient(145deg,#ffffff,#f7f8ff)}
+.day h2{color:#302a78}
+details{background:#fff;border:1px solid #ccd6e5;border-radius:13px;padding:12px;margin:10px 0}
+summary{font-weight:750;cursor:pointer}
+.badge{
+ display:inline-block;background:#eef0ff;color:#312e81;border:1px solid #c9c8ff;border-radius:999px;
+ padding:7px 12px;margin:4px;font-weight:700
+}
+.score{background:linear-gradient(135deg,#eef0ff,#eafafa);border:1px solid #c8d8e8}
+.footer{text-align:center;margin:30px 0;padding:20px;color:#39445a}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+@media (max-width:520px){body{padding:12px}.hero,.card,.lesson,.quiz,.score{border-radius:18px;padding:17px}button{width:100%;margin:6px 0}.grid{grid-template-columns:1fr 1fr}.stat{padding:12px}}
+</style></head>
+<body>
+<section class="hero">
+<p class="badge">MISSÃO IFCE • 2027.1</p><h1>🎯 Reta final da Laila</h1>
+<p class="big"><strong>Preparação para Química Integrado — IFCE Fortaleza — 2027.1</strong></p>
+<p>Laila, no simulado do preparatório <strong>Carmen Rios</strong> você fez <strong>37 de 45 questões</strong>: <strong>82,2%</strong>. É um resultado forte. Agora não vamos estudar no escuro: vamos transformar os pontos que ainda escaparam em oportunidades de ganhar questões na prova.</p>
+<p>Você não precisa acertar tudo de uma vez. A missão desta semana é simples: <strong>entender → praticar → corrigir → tentar novamente.</strong></p>
+</section>
+
+<section class="card">
+<h2>📊 Seu raio-X no simulado</h2>
+<div class="grid">
+<div class="stat"><strong>Português 8/10</strong>80%</div>
+<div class="stat"><strong>História 5/5</strong>100% 🏆</div>
+<div class="stat"><strong>Geografia 3/5</strong>60% 🎯 foco maior</div>
+<div class="stat"><strong>Biologia 4/5</strong>80%</div>
+<div class="stat"><strong>Física 4/5</strong>80%</div>
+<div class="stat"><strong>Química 4/5</strong>80%</div>
+<div class="stat"><strong>Matemática 8/10</strong>80%</div>
+</div>
+<p><strong>Leitura do resultado:</strong> História foi perfeita. Português, Biologia, Física, Química e Matemática estão em uma faixa boa. Geografia é a maior oportunidade imediata de crescimento. Por isso terça e quarta atacam os erros; sexta revisa o conjunto; sábado consolida sem maratona.</p>
+</section>
+
+<section class="card day">
+<h2>📅 Terça-feira — Missão: recuperar pontos</h2>
+<p>Faça blocos de aproximadamente 30–40 minutos, com pequenas pausas. Abra cada missão, estude aqui mesmo e depois faça o mini exercício.</p>
+<div id="t1"></div>
+</section>
+
+<section class="card day">
+<h2>📅 Quarta-feira — Missão: dominar cálculo e Química</h2>
+<div id="t2"></div>
+</section>
+
+<section class="card day">
+<h2>📅 Sexta-feira — Missão: juntar as peças</h2>
+<p>Faça uma revisão de todas as disciplinas. Dê mais tempo às matérias que ainda estiverem abaixo de 80% nos exercícios e simulados digitais. Inclua uma prática de redação: planejar introdução, desenvolvimento e conclusão antes de escrever. Depois, faça um simulado digital completo.</p>
+<span class="badge">Revisão geral</span><span class="badge">Redação</span><span class="badge">Simulado</span>
+</section>
+
+<section class="card day">
+<h2>📅 Sábado — Missão: chegar leve</h2>
+<p>Revise fórmulas, conceitos-chave e os erros dos exercícios. Não transforme a véspera em uma maratona. Faça uma revisão curta, organize o necessário para a prova e preserve tempo para descanso.</p>
+<span class="badge">Erros anteriores</span><span class="badge">Fórmulas</span><span class="badge">Descanso</span>
+</section>
+
+<section class="score">
+<h2>⭐ Painel de progresso</h2>
+<p id="placar" class="progress">0 de 6 missões concluídas.</p>
+<button onclick="resetar()">Recomeçar exercícios</button>
+</section>
+<div class="footer"><strong>Uma questão de cada vez. Cada erro entendido hoje pode virar um acerto no domingo. 💪</strong></div>
+
+<script>
+const lessons=[
+{day:"t1",id:"port",title:"Português — Figuras de linguagem e crase",study:`<h3>Figuras de linguagem</h3><p><strong>Personificação</strong> acontece quando algo não humano recebe ação ou característica humana. Ex.: “A cidade acordou nervosa.” Cidade não acorda literalmente.</p><p><strong>Metáfora</strong> cria uma comparação implícita: “Meu irmão é uma fera nos estudos.” <strong>Hipérbole</strong> exagera: “Esperei uma eternidade.” <strong>Metonímia</strong> troca um termo por outro relacionado: “Li Machado de Assis” = li a obra dele.</p><h3>Crase</h3><p>A crase normalmente aparece quando a preposição <strong>a</strong> encontra o artigo feminino <strong>a/as</strong>: “Fui <strong>à escola</strong>”. Um teste útil é trocar o termo feminino por masculino: se aparecer “ao”, geralmente haverá crase no feminino: “Fui ao colégio → fui à escola”.</p><p>Não ocorre antes de verbo, palavra masculina e, em geral, antes de artigo indefinido: “começou a estudar”, “a pé”, “entreguei a uma colega”.</p>`,
+q:"Qual frase apresenta personificação?",opts:["A) Estou morrendo de fome.","B) A lua observava silenciosamente a cidade.","C) Ela é rápida como um raio.","D) Li Clarice Lispector ontem."],ans:1,why:"A lua recebe a ação humana de observar; isso é personificação."},
+{day:"t1",id:"geo",title:"Geografia — Relevo e Caatinga",study:`<h3>Agentes do relevo</h3><p><strong>Internos (endógenos):</strong> vêm da dinâmica do interior da Terra — tectonismo, terremotos e vulcanismo. <strong>Externos (exógenos):</strong> atuam na superfície — intemperismo, erosão, transporte e sedimentação.</p><h3>Caatinga</h3><p>O semiárido apresenta chuvas irregulares e longos períodos secos. Muitas plantas possuem folhas reduzidas ou espinhos, queda de folhas na seca, raízes adaptadas e estruturas que diminuem a perda de água. Essas características são adaptações, não sinais de “vegetação pobre”.</p>`,
+q:"Qual alternativa apresenta somente agentes EXTERNOS do relevo?",opts:["A) Vulcanismo e tectonismo.","B) Terremotos e dobramentos.","C) Intemperismo e erosão.","D) Tectonismo e erosão."],ans:2,why:"Intemperismo e erosão atuam na superfície terrestre e são agentes externos."},
+{day:"t1",id:"bio",title:"Biologia — Oxigênio, hemácias e hemoglobina",study:`<p>Nos pulmões, o oxigênio passa dos alvéolos para o sangue. A maior parte desse oxigênio é transportada ligada à <strong>hemoglobina</strong>, proteína presente nas <strong>hemácias</strong> (glóbulos vermelhos).</p><p>As <strong>plaquetas</strong> participam principalmente da coagulação. Os <strong>leucócitos</strong> atuam na defesa. Memorize a associação: <strong>hemácia + hemoglobina → transporte de O₂</strong>.</p>`,
+q:"A maior parte do oxigênio transportado pelo sangue está:",opts:["A) ligada à hemoglobina das hemácias.","B) armazenada nas plaquetas.","C) dentro dos leucócitos.","D) dissolvida na bile."],ans:0,why:"A hemoglobina das hemácias liga-se ao oxigênio e realiza a maior parte de seu transporte."},
+{day:"t1",id:"fis",title:"Física — Força resultante e F = m·a",study:`<p>Primeiro observe o <strong>sentido</strong> das forças. Se estão em sentidos opostos, subtraia. Depois use a Segunda Lei de Newton: <strong>Fresultante = massa × aceleração</strong>.</p><p>Exemplo: 50 N para a direita e 20 N para a esquerda → resultante = 30 N para a direita. Se a massa é 5 kg: a = F/m = 30/5 = <strong>6 m/s² para a direita</strong>.</p>`,
+q:"Um corpo de 4 kg recebe 36 N para a direita e 12 N para a esquerda. Qual a aceleração?",opts:["A) 3 m/s² para a direita.","B) 6 m/s² para a direita.","C) 9 m/s² para a direita.","D) 12 m/s² para a esquerda."],ans:1,why:"Resultante = 36−12 = 24 N. Então a = 24/4 = 6 m/s² para a direita."},
+{day:"t2",id:"qui",title:"Química — Ligações químicas",study:`<p><strong>Iônica:</strong> geralmente metal + ametal, com formação de íons por transferência de elétrons. Ex.: NaCl.</p><p><strong>Covalente:</strong> geralmente entre ametais, com compartilhamento de elétrons. Ex.: O₂, H₂O.</p><p><strong>Metálica:</strong> entre átomos metálicos; ajuda a explicar propriedades como condução elétrica e maleabilidade. Ex.: cobre e ligas metálicas.</p><p>Atalho de prova: <strong>metal + ametal → pense iônica; ametal + ametal → pense covalente; metais → metálica.</strong></p>`,
+q:"A sequência correta para NaCl, O₂ e uma liga de cobre e zinco é:",opts:["A) covalente, iônica, metálica.","B) iônica, covalente, metálica.","C) metálica, covalente, iônica.","D) iônica, metálica, covalente."],ans:1,why:"NaCl é iônica; O₂ é covalente; cobre e zinco formam uma liga com ligação metálica."},
+{day:"t2",id:"mat",title:"Matemática — Equação incompleta e Pitágoras",study:`<h3>Equação do 2º grau incompleta</h3><p>Quando aparece algo como x² + 5x = 0, coloque x em evidência: <strong>x(x+5)=0</strong>. Um produto é zero se pelo menos um fator for zero. Portanto: x=0 ou x+5=0 → x=−5.</p><h3>Pitágoras</h3><p>Em triângulo retângulo: <strong>hipotenusa² = cateto² + cateto²</strong>. Ex.: catetos 5 e 12 → h²=25+144=169 → h=13.</p>`,
+q:"Quais são as raízes de x² + 6x = 0?",opts:["A) 0 e 6.","B) 3 e −3.","C) 0 e −6.","D) 6 e −6."],ans:2,why:"Fatorando: x(x+6)=0. Logo, x=0 ou x=−6."}
+];
+
+function render(){
+ lessons.forEach(L=>{
+  const host=document.getElementById(L.day);
+  host.insertAdjacentHTML("beforeend",`<article class="lesson topic"><h3>${L.title}</h3><button aria-expanded="false" onclick="toggleStudy('${L.id}',this)">📚 Vamos estudar agora</button><div id="s-${L.id}" class="hidden">${L.study}<button onclick="abrirQuiz('${L.id}')">🧠 Fazer exercício</button></div><div id="q-${L.id}" class="quiz hidden"></div></article>`);
+ });
+ update();
+}
+function toggleStudy(id,b){let e=document.getElementById("s-"+id);let open=e.classList.toggle("hidden")===false;b.setAttribute("aria-expanded",open);b.textContent=open?"📖 Fechar estudo":"📚 Vamos estudar agora";}
+function abrirQuiz(id){
+ let L=lessons.find(x=>x.id===id),q=document.getElementById("q-"+id);
+ q.classList.remove("hidden");
+ q.innerHTML=`<h3>Desafio rápido</h3><p><strong>${L.q}</strong></p>${L.opts.map((o,i)=>`<label class="option"><input type="radio" name="${id}" value="${i}"> ${o}</label>`).join("")}<button onclick="corrigir('${id}')">Conferir resposta</button><div id="f-${id}" aria-live="polite"></div>`;
+ q.scrollIntoView({behavior:"smooth",block:"center"});
+}
+function corrigir(id){
+ let L=lessons.find(x=>x.id===id),r=document.querySelector(`input[name="${id}"]:checked`),f=document.getElementById("f-"+id);
+ if(!r){f.innerHTML='<p class="feedback">Escolha uma alternativa primeiro.</p>';return}
+ let ok=+r.value===L.ans, data=JSON.parse(localStorage.getItem("planoLaila")||"{}");
+ if(ok){data[id]=true;f.innerHTML=`<p class="feedback">✅ Acertou! ${L.why}</p><button onclick="abrirQuiz('${id}')">Refazer exercício</button>`}
+ else{f.innerHTML=`<p class="feedback">🔎 Ainda não. ${L.why}</p><p>Volte ao resumo, identifique a regra principal e tente novamente.</p><button onclick="toggleStudy('${id}',document.querySelector('[onclick*=toggleStudy][onclick*=${id}]'))">Rever conteúdo</button><button onclick="abrirQuiz('${id}')">Tentar novamente</button>`}
+ localStorage.setItem("planoLaila",JSON.stringify(data));update();
+}
+function update(){let d=JSON.parse(localStorage.getItem("planoLaila")||"{}"),n=lessons.filter(x=>d[x.id]).length;document.getElementById("placar").textContent=`${n} de ${lessons.length} missões concluídas${n===lessons.length?" — 🏆 missão completa!": "."}`;}
+function resetar(){if(confirm("Recomeçar o progresso dos exercícios?")){localStorage.removeItem("planoLaila");update();location.reload()}}
+render();
+</script>
+</body></html>
